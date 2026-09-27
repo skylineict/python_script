@@ -18,7 +18,7 @@ body = json.dumps(payload)
 my_signature = hmac.new(
     secret_key.encode(),
     body.encode(),
-    hashlib.sha3_256,).hexdigest()
+    hashlib.sha256,).hexdigest()
 
 
 # print(my_signature)
@@ -36,3 +36,5 @@ response = requests.post(
 
 print(response)
 
+# print("Status code:", response.status_code)
+# print("Response body:", response.text)
