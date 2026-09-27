@@ -9,7 +9,7 @@ payload = {
     "resume": "https://drive.google.com/file/d/1Qowr1lvIdOBxAWMJ76fnidiwEodOQJzO/view?usp=sharing",
     "location": "Port Harcourt, Nigeria",
     "linkedin": "https://www.linkedin.com/in/olisa-macaulay-skyline-619672185/",
-    "codeLink": "URL to the repo/gist containing THIS script",
+    "codeLink": "https://github.com/skylineict/python_script",
     "yearsPython": 7,
     "yearsDjango": 5,
 }
